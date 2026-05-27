@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Urban Muscle | Premium Luxury Fitness & Strength Club</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="logo.png" />
+  <!-- Premium FontAwesome CDN Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Native Styles -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Script Defer Load -->
+  <script defer src="script.js"></script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+
+  <!-- MOBILE NAVIGATION SCREEN OVERLAY -->
+  <div class="mobile-nav-overlay" id="mobileNav">
+    <button class="mobile-nav-close" id="closeNavBtn"><i class="fa-solid fa-xmark"></i></button>
+    <ul class="mobile-nav-links">
+      <li><a href="#hero" class="active">Home</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="mobile-nav-cta">Get Pass</a>
+  </div>
+
+  <!-- STICKY HEADER WITH GLASSMORPHISM AND INDICATORS -->
+  <header>
+    <div class="nav-container">
+      <a href="#hero" class="logo">
+        <img src="logo.png" alt="Urban Muscle Logo" class="logo-img" referrerPolicy="no-referrer" />
+        URBAN <span>MUSCLE</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#hero" class="active">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#pricing">Plans</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a href="#contact" class="nav-cta">Membership Pass</a>
+
+      <button class="mobile-toggle" aria-label="Toggle Navigation menu">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- IMMERSIVE HERO SECTION WITH 3D ORBIT RING AND BACKGROUND TILT -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <!-- 3D Orbital Ring background visual effect -->
+    <div class="floating-3d-ring"></div>
+    
+    <div class="hero-container">
+      <div class="hero-content reveal-element active">
+        <span class="hero-subtitle">The Obsidian Peak of Conditioning</span>
+        <h1 class="hero-title">
+          RECONQUER <span>YOUR POWER</span>
+        </h1>
+        <p class="hero-desc">
+          Urban Muscle is an ultra-premium fitness sanctuary meticulously designed for individuals seeking absolute physiological supremacy. Featuring hand-forged 3D strength rigs, professional coaches, Olympic-grade lifting blocks, and bespoke metabolic tuning.
+        </p>
+        <div class="hero-cta-group">
+          <a href="#pricing" class="btn-primary">
+            Join Premium Tier <i class="fa-solid fa-arrow-right-long"></i>
+          </a>
+          <a href="#schedule" class="btn-secondary">Explore Timelines</a>
+        </div>
+      </div>
+
+      <!-- 3D Card Perspective Display -->
+      <div class="hero-badge-card reveal-element active reveal-delay-2">
+        <div class="badge-3d-visual">
+          <div class="badge-glow"></div>
+          <div class="badge-header">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h3>FOUNDER MEMBER</h3>
+            <p>Access Level: Elite Unlimited</p>
+          </div>
+          <div class="badge-middle">
+            <div class="scrolling-taglines">★ OLYMPIC LIFTING LAB ★</div>
+          </div>
+          <div class="badge-footer">
+            <div class="badge-stat">
+              <h4>12<span>k</span></h4>
+              <p>Sq Ft Lab</p>
+            </div>
+            <div class="badge-stat">
+              <h4>24<span>/</span>7</h4>
+              <p>Active</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STUNNING STATS SECTION -->
+  <section class="stats" id="stats">
+    <div class="section-container">
+      <div class="stats-grid">
+        <div class="stat-card reveal-element">
+          <div class="stat-num">12<span>+</span></div>
+          <div class="stat-label">Elite Coaches</div>
+        </div>
+        <div class="stat-card reveal-element reveal-delay-1">
+          <div class="stat-num">15<span>k</span></div>
+          <div class="stat-label">Active Members</div>
+        </div>
+        <div class="stat-card reveal-element reveal-delay-2">
+          <div class="stat-num">99<span>%</span></div>
+          <div class="stat-label">Goal Achievement</div>
+        </div>
+        <div class="stat-card reveal-element reveal-delay-3">
+          <div class="stat-num">100<span>%</span></div>
+          <div class="stat-label">Bio-Metric Focus</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENTO GRID FITNESS PROGRAMS SECTION -->
+  <section class="section-bg-dark" id="programs">
+    <div class="section-container">
+      <div class="section-header reveal-element">
+        <span class="section-label">Club Programs</span>
+        <h2 class="section-title">ENGINEER YOUR DENSITIES</h2>
+        <p class="section-subtitle">Choose from three specialized training paths designed to break standard plateaus under professional supervision.</p>
+      </div>
+
+      <div class="programs-grid">
+        <!-- Card 1: Powerlifting -->
+        <div class="program-card reveal-element">
+          <div class="program-card-img" style="background-image: url('https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80')"></div>
+          <div class="program-card-overlay"></div>
+          <div class="program-card-content">
+            <div class="program-icon-badge">
+              <i class="fa-solid fa-dumbbell"></i>
+            </div>
+            <h3>Olympic Powerlifting</h3>
+            <p>Master multi-joint compound barbell moves, power phases, and peak dynamic strength lifts guided by regional deadlift champions.</p>
+            <a href="#contact" class="program-link">Lock In Program <i class="fa-solid fa-chevron-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Card 2: HIIT -->
+        <div class="program-card reveal-element reveal-delay-1">
+          <div class="program-card-img" style="background-image: url('https://images.unsplash.com/photo-1518310383802-640c2de311b2?auto=format&fit=crop&w=800&q=80')"></div>
+          <div class="program-card-overlay"></div>
+          <div class="program-card-content">
+            <div class="program-icon-badge">
+              <i class="fa-solid fa-fire"></i>
+            </div>
+            <h3>HIIT Endurance Fusion</h3>
+            <p>Shatter body fat indexes and optimize aerobic VO2 max. Fast-tempo intervals combining sandbags, rowers, and dynamic weight circuits.</p>
+            <a href="#contact" class="program-link">Lock In Program <i class="fa-solid fa-chevron-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Card 3: Yoga -->
+        <div class="program-card reveal-element reveal-delay-2">
+          <div class="program-card-img" style="background-image: url('https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=800&q=80')"></div>
+          <div class="program-card-overlay"></div>
+          <div class="program-card-content">
+            <div class="program-icon-badge">
+              <i class="fa-solid fa-spa"></i>
+            </div>
+            <h3>Ashtanga & Yoga flow</h3>
+            <p>Enhance core stabilizers, joint decompression, and mental connection in a state-of-the-art climate-regulated dark dome.</p>
+            <a href="#contact" class="program-link">Lock In Program <i class="fa-solid fa-chevron-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORY-FILTERED IMAGE GALLERY SECTION -->
+  <section class="section-bg-card" id="gallery">
+    <div class="section-container">
+      <div class="section-header reveal-element">
+        <span class="section-label">Club Sanctuary</span>
+        <h2 class="section-title">THE URBAN MONOLITH</h2>
+        <p class="section-subtitle">Inspect the luxurious training, recovery, and aesthetic equipment blocks housed within our exclusive complex.</p>
+      </div>
+
+      <!-- Categories Navigation -->
+      <div class="gallery-tabs reveal-element">
+        <button class="gallery-tab active" data-filter="all">All Arenas</button>
+        <button class="gallery-tab" data-filter="weight">Power Labs</button>
+        <button class="gallery-tab" data-filter="cardio">Cardio Deck</button>
+        <button class="gallery-tab" data-filter="yoga">Zen Domes</button>
+        <button class="gallery-tab" data-filter="personal">Personal Coaching</button>
+      </div>
+
+      <!-- Gallery Grid and Items -->
+      <div class="gallery-grid">
+        <!-- Item 1: Weight -->
+        <div class="gallery-item reveal-element" data-category="weight">
+          <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=600&q=80" alt="Heavy power rack barbell" referrerPolicy="no-referrer" />
+          <div class="gallery-item-info">
+            <i class="fa-solid fa-dumbbell"></i>
+            <h4>Heavy Cast Iron Block</h4>
+            <p>Power Labs</p>
+          </div>
+        </div>
+
+        <!-- Item 2: Cardio -->
+        <div class="gallery-item reveal-element reveal-delay-1" data-category="cardio">
+          <img src="https://images.unsplash.com/photo-1518310383802-640c2de311b2?auto=format&fit=crop&w=600&q=80" alt="Rowing machines and bikes" referrerPolicy="no-referrer" />
+          <div class="gallery-item-info">
+            <i class="fa-solid fa-gauge-high"></i>
+            <h4>Metabolic Rowers & Deck</h4>
+            <p>Cardio Deck</p>
+          </div>
+        </div>
+
+        <!-- Item 3: Yoga -->
+        <div class="gallery-item reveal-element reveal-delay-2" data-category="yoga">
+          <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=600&q=80" alt="Dimly lit yoga studio" referrerPolicy="no-referrer" />
+          <div class="gallery-item-info">
+            <i class="fa-solid fa-hands-holding-child"></i>
+            <h4>Deep Meditation Dome</h4>
+            <p>Zen Domes</p>
+          </div>
+        </div>
+
+        <!-- Item 4: Personal Training -->
+        <div class="gallery-item reveal-element" data-category="personal">
+          <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=600&q=80" alt="Trainer checking barbell squat form" referrerPolicy="no-referrer" />
+          <div class="gallery-item-info">
+            <i class="fa-solid fa-user-check"></i>
+            <h4>One-on-One Assessment</h4>
+            <p>Personal Coaching</p>
+          </div>
+        </div>
+
+        <!-- Item 5: Weight -->
+        <div class="gallery-item reveal-element reveal-delay-1" data-category="weight">
+          <img src="https://images.unsplash.com/photo-1605296867304-46d5465a25f1?auto=format&fit=crop&w=600&q=80" alt="Kettlebells arrangement on rack" referrerPolicy="no-referrer" />
+          <div class="gallery-item-info">
+            <i class="fa-solid fa-circle-nodes"></i>
+            <h4>Coached Movement Station</h4>
+            <p>Power Labs</p>
+          </div>
+        </div>
+
+        <!-- Item 6: Recovery / Facility -->
+        <div class="gallery-item reveal-element reveal-delay-2" data-category="personal">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80" alt="Luxury gym washroom premium sinks" referrerPolicy="no-referrer" />
+          <div class="gallery-item-info">
+            <i class="fa-solid fa-crown"></i>
+            <h4>Prestige Spa / Recovery</h4>
+            <p>Personal Coaching</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERACTIVE TIMELINE WORKOUT SCHEDULE SECTION -->
+  <section class="section-bg-dark" id="schedule">
+    <div class="section-container">
+      <div class="section-header reveal-element">
+        <span class="section-label">Club Chronology</span>
+        <h2 class="section-title">DAILY SCHEDULE</h2>
+        <p class="section-subtitle">Toggle your desired training days to render active session timelines, premium trainers, and program intensity meters.</p>
+      </div>
+
+      <div class="schedule-container reveal-element">
+        <!-- Sidebar Days -->
+        <div class="schedule-sidebar">
+          <button class="schedule-day-btn active" data-day="monday">Monday <i class="fa-solid fa-chevron-right"></i></button>
+          <button class="schedule-day-btn" data-day="tuesday">Tuesday <i class="fa-solid fa-chevron-right"></i></button>
+          <button class="schedule-day-btn" data-day="wednesday">Wednesday <i class="fa-solid fa-chevron-right"></i></button>
+          <button class="schedule-day-btn" data-day="thursday">Thursday <i class="fa-solid fa-chevron-right"></i></button>
+          <button class="schedule-day-btn" data-day="friday">Friday <i class="fa-solid fa-chevron-right"></i></button>
+          <button class="schedule-day-btn" data-day="saturday">Saturday <i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+
+        <!-- Render Target Timeline -->
+        <div class="schedule-timeline">
+          <!-- Populated dynamically via script.js -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ADVANCED BODY MASS DIAL CALCULATOR -->
+  <section class="section-bg-card" id="bmi">
+    <div class="section-container">
+      <div class="section-header reveal-element">
+        <span class="section-label">Medical Analytics</span>
+        <h2 class="section-title">OPTIMIZATION DIAL</h2>
+        <p class="section-subtitle">Track your physiological condition using our metrics console. Dynamic conic-gauge needle instantly computes your health tiers.</p>
+      </div>
+
+      <div class="bmi-grid">
+        <!-- Form Control -->
+        <div class="bmi-calc-card glass-panel reveal-element">
+          <div class="bmi-toggle-wrapper">
+            <div class="unit-toggler">
+              <button class="unit-btn active" data-unit="metric">Metric (M)</button>
+              <button class="unit-btn" data-unit="imperial">Imperial (I)</button>
+            </div>
+          </div>
+
+          <div class="bmi-inputs">
+            <!-- Height Inputs -->
+            <div class="input-block">
+              <label for="bmi-height" id="height-unit-label">Height (cm)</label>
+              <input type="number" id="bmi-height" placeholder="e.g. 175" min="1" step="any" />
+            </div>
+
+            <!-- Weight Inputs -->
+            <div class="input-block">
+              <label for="bmi-weight" id="weight-unit-label">Weight (kg)</label>
+              <input type="number" id="bmi-weight" placeholder="e.g. 70" min="1" step="any" />
+            </div>
+          </div>
+
+          <button class="btn-primary btn-bmi-submit">
+            <i class="fa-solid fa-calculator-pulse"></i> Compute Body Index
+          </button>
+        </div>
+
+        <!-- 3D Dial Gauge and Result Feedback -->
+        <div class="bmi-visuals reveal-element reveal-delay-2">
+          <div class="gauge-perspective">
+            <div class="gauge-base">
+              <!-- Color arch overlay tracks -->
+              <div class="gauge-color-track"></div>
+              <!-- Gauge needle center hub -->
+              <div class="gauge-needle"></div>
+              <div class="gauge-needle-hub"></div>
+              
+              <!-- Value displays inside gauge layout -->
+              <div class="gauge-display-center">
+                <div class="gauge-bmi-num">0.0</div>
+                <div class="gauge-bmi-label">Ready</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bmi-outcome">
+            <div class="bmi-feedback-card">
+              <h4 class="feedback-title"><i class="fa-solid fa-shield-heart text-gold"></i> Ready to Assess</h4>
+              <p class="feedback-advice">Provide your physical height and weight specifications inside the card console, then click Compute to process your index metrics and receive bespoke routines.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ELITE SUBSCRIPTION CHARTS / PLAN LAYOUT -->
+  <section class="section-bg-dark" id="pricing">
+    <div class="section-container">
+      <div class="section-header reveal-element">
+        <span class="section-label">Club Subscriptions</span>
+        <h2 class="section-title">CHOOSE YOUR ARMOUR</h2>
+        <p class="section-subtitle">Flexible structures for dedicated athletes. Trade hesitation for structural excellence under contract structures.</p>
+      </div>
+
+      <!-- Billing Toggles -->
+      <div class="billing-toggle reveal-element">
+        <span class="toggle-label active" id="label-monthly">Monthly Billing</span>
+        <div class="billing-switch" id="billingSwitch" aria-label="Toggle annual billing scale">
+          <div class="billing-switch-circle"></div>
+        </div>
+        <span class="toggle-label" id="label-annually">Annually Billing</span>
+        <span class="toggle-discount">Save 20%</span>
+      </div>
+
+      <!-- Plans Columns -->
+      <div class="pricing-grid">
+        <!-- Standard -->
+        <div class="price-card reveal-element">
+          <div class="price-class">Vanguard Starter</div>
+          <p class="price-desc">Access high-quality strength equipment and general facilities during standard times.</p>
+          <div class="price-amount">
+            <span class="price-currency">₹</span>
+            <span class="price-val" id="price-starter">1499</span>
+            <span class="price-period">/ mo</span>
+          </div>
+
+          <ul class="price-features">
+            <li><i class="fa-solid fa-circle-check"></i> 12,000sq ft Power Labs Access</li>
+            <li><i class="fa-solid fa-circle-check"></i> Fully Equipped Cardio Deck</li>
+            <li><i class="fa-solid fa-circle-check"></i> Standard Group Classes</li>
+            <li class="disabled"><i class="fa-solid fa-circle-xmark"></i> Advanced BMI Gauge Analytics</li>
+            <li class="disabled"><i class="fa-solid fa-circle-xmark"></i> 1-on-1 Certified Coach Access</li>
+            <li class="disabled"><i class="fa-solid fa-circle-xmark"></i> Zen Dome Spa and Sauna Blocks</li>
+          </ul>
+
+          <a href="#contact" class="btn-secondary">Lock In Vanguard</a>
+        </div>
+
+        <!-- Titanium (Popular) -->
+        <div class="price-card popular reveal-element reveal-delay-1">
+          <div class="popular-badge">CHIEF RECOMMENDED</div>
+          <div class="price-class">Titanium Access</div>
+          <p class="price-desc">Designed for serious transformation athletes with advanced coaching assessment benefits.</p>
+          <div class="price-amount">
+            <span class="price-currency">₹</span>
+            <span class="price-val" id="price-titanium">2999</span>
+            <span class="price-period">/ mo</span>
+          </div>
+
+          <ul class="price-features">
+            <li><i class="fa-solid fa-circle-check"></i> 24/7 Unlimited Access to All Labs</li>
+            <li><i class="fa-solid fa-circle-check"></i> VIP Cardio Deck & Olympic Blocks</li>
+            <li><i class="fa-solid fa-circle-check"></i> Access to all HIIT and Yoga flow</li>
+            <li><i class="fa-solid fa-circle-check"></i> Precision Medical BMI Analytics</li>
+            <li><i class="fa-solid fa-circle-check"></i> 2 Monthly Reviews with Coach</li>
+            <li class="disabled"><i class="fa-solid fa-circle-xmark"></i> Private Zen Dome Sauna</li>
+          </ul>
+
+          <a href="#contact" class="btn-primary">Become Titanium Member</a>
+        </div>
+
+        <!-- Obsidian VIP -->
+        <div class="price-card reveal-element reveal-delay-2">
+          <div class="price-class">Obsidian Elite</div>
+          <p class="price-desc">Complete physiological engineering. Bespoke programs and private spa access.</p>
+          <div class="price-amount">
+            <span class="price-currency">₹</span>
+            <span class="price-val" id="price-obsidian">5999</span>
+            <span class="price-period">/ mo</span>
+          </div>
+
+          <ul class="price-features">
+            <li><i class="fa-solid fa-circle-check"></i> Full Obsidian Private Rooms</li>
+            <li><i class="fa-solid fa-circle-check"></i> Bespoke Daily Diet & Workout Kits</li>
+            <li><i class="fa-solid fa-circle-check"></i> Unlimited 1-on-1 Personal Coaching</li>
+            <li><i class="fa-solid fa-circle-check"></i> Advanced Daily BMI Gauge checks</li>
+            <li><i class="fa-solid fa-circle-check"></i> Private Zen Dome Spa & Saunas</li>
+            <li><i class="fa-solid fa-circle-check"></i> Complimentary Post-Workout Shakes</li>
+          </ul>
+
+          <a href="#contact" class="btn-secondary">Unleash Obsidian</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ELITE TRAINERS PROFILE CARDS -->
+  <section class="section-bg-card" id="trainers">
+    <div class="section-container">
+      <div class="section-header reveal-element">
+        <span class="section-label">Club Captains</span>
+        <h2 class="section-title">CERTIFIED ELITE PERFORMANCE</h2>
+        <p class="section-subtitle">Our certified physical therapists and performance directors are committed to your absolute physical success.</p>
+      </div>
+
+      <div class="trainer-grid">
+        <!-- Coach 1 -->
+        <div class="trainer-card reveal-element">
+          <div class="trainer-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?auto=format&fit=crop&w=600&h=800&q=80" alt="Rohan Malhotra Coach Profile" class="trainer-img" referrerPolicy="no-referrer" />
+            <div class="trainer-socials-overlay">
+              <div class="social-icons-row">
+                <a href="#" class="social-icon-btn"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-icon-btn"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="social-icon-btn"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="trainer-details">
+            <div class="trainer-role">Director of Power & S&C</div>
+            <h3 class="trainer-name">Rohan Malhotra</h3>
+            <p class="trainer-certs">RSCC*D | USAW-L2 | 12+ Years Coaching</p>
+          </div>
+        </div>
+
+        <!-- Coach 2 -->
+        <div class="trainer-card reveal-element reveal-delay-1">
+          <div class="trainer-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1548690312-e3b507d8c110?auto=format&fit=crop&w=600&h=800&q=80" alt="Ananya Shrivastava Coach Profile" class="trainer-img" referrerPolicy="no-referrer" />
+            <div class="trainer-socials-overlay">
+              <div class="social-icons-row">
+                <a href="#" class="social-icon-btn"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-icon-btn"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="social-icon-btn"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="trainer-details">
+            <div class="trainer-role">Yoga & Pilates Specialist</div>
+            <h3 class="trainer-name">Ananya Shrivastava</h3>
+            <p class="trainer-certs">RYT-500 | Sports Science Degree | Recovery Coach</p>
+          </div>
+        </div>
+
+        <!-- Coach 3 -->
+        <div class="trainer-card reveal-element reveal-delay-2">
+          <div class="trainer-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&w=600&h=800&q=80" alt="Arjun Kapoor Coach Profile" class="trainer-img" referrerPolicy="no-referrer" />
+            <div class="trainer-socials-overlay">
+              <div class="social-icons-row">
+                <a href="#" class="social-icon-btn"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-icon-btn"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="social-icon-btn"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="trainer-details">
+            <div class="trainer-role">Kettlebell & HIIT Principal</div>
+            <h3 class="trainer-name">Arjun Kapoor</h3>
+            <p class="trainer-certs">CSCS | FMS-Level 1 | Performance Nutritionist</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIAL CAROUSEL SECTION -->
+  <section class="section-bg-dark" id="testimonials">
+    <div class="section-container">
+      <div class="section-header reveal-element">
+        <span class="section-label">ATHLETES VOICES</span>
+        <h2 class="section-title">CHAMPION REVIEW BLOCKS</h2>
+        <p class="section-subtitle">Listen to members who chose to bypass average limitations for complete physical redesigns.</p>
+      </div>
+
+      <!-- Testimonials Sildes Carousel -->
+      <div class="carousel-wrapper reveal-element">
+        <button class="carousel-btn prev" aria-label="View previous testimonial slide"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="carousel-btn next" aria-label="View next testimonial slide"><i class="fa-solid fa-chevron-right"></i></button>
+        
+        <div class="carousel-container">
+          <!-- Slide 1 -->
+          <div class="carousel-slide">
+            <div class="quote-card glass-panel">
+              <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+              <div class="rating-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p class="quote-text">
+                "Finding Urban Muscle completely changed my outlook on strength sports. The heavy platform casting rigs, the specialized coach Rohan, and the incredible golden focus vibe pushed me to shatter my squat record by over 45 kg."
+              </p>
+              <div class="quote-author">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80" alt="Sneha Patel - Powerlifting Champion" class="author-avatar" />
+                <h4 class="author-name">Sneha Patel</h4>
+                <p class="author-title">Competitive Powerlifter</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-slide">
+            <div class="quote-card glass-panel">
+              <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+              <div class="rating-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p class="quote-text">
+                "The metabolic fusion training is insane. I dropped my BMI metrics from overweight to a stable 23.1 in less than five months! This gym isn't just machines; it's a structural physical engineering lab."
+              </p>
+              <div class="quote-author">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&q=80" alt="Kabir Sen Profile Image" class="author-avatar" />
+                <h4 class="author-name">Kabir Sen</h4>
+                <p class="author-title">Executive Member</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-slide">
+            <div class="quote-card glass-panel">
+              <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+              <div class="rating-stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p class="quote-text">
+                "I never realized core stability and mental control could improve my weightlifting sessions so drastically. Ananya's yoga flow program and recovery dome setups are unmatched in luxury fit design."
+              </p>
+              <div class="quote-author">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" alt="Vikram Deshmukh Profile Image" class="author-avatar" />
+                <h4 class="author-name">Vikram Deshmukh</h4>
+                <p class="author-title">Performance Athlete</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dots Indicators and Trackers -->
+        <div class="carousel-indicators"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT FORM & INTEGRATED ADDRESS / DETAILS SECTION -->
+  <section class="section-bg-card" id="contact">
+    <div class="section-container">
+      <div class="section-header reveal-element">
+        <span class="section-label">Club Inbounds</span>
+        <h2 class="section-title">SECURE CLUBLHOUSE ACCESS</h2>
+        <p class="section-subtitle">Reach out today. Register to secure a private assessment slot and custom membership tour with a certified coach.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Interactive Detail card -->
+        <div class="contact-info-panel reveal-element">
+          <h3>URBAN HQ SERVICES</h3>
+          <p class="contact-highlight">Our gates remain open 24 hours for registered biometric members.</p>
+          
+          <div class="contact-lines">
+            <!-- Line 1: Address (Uttar Pradesh requirement) -->
+            <div class="contact-line-item">
+              <div class="contact-icon-box"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="contact-text">
+                <h5>Location Address</h5>
+                <p>Noida Sector 62, Uttar Pradesh, India</p>
+              </div>
+            </div>
+
+            <!-- Line 2: Phone (Requirement +91 0123456789) -->
+            <div class="contact-line-item">
+              <div class="contact-icon-box"><i class="fa-solid fa-phone"></i></div>
+              <div class="contact-text">
+                <h5>Direct Contacts</h5>
+                <p>+91 0123456789</p>
+              </div>
+            </div>
+
+            <!-- Line 3: Email -->
+            <div class="contact-line-item">
+              <div class="contact-icon-box"><i class="fa-solid fa-envelope"></i></div>
+              <div class="contact-text">
+                <h5>Inbound Support</h5>
+                <p>prestige@urbanmuscle.fit</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-additional-social">
+            <h4 class="social-heading">COMMUNITY FEEDS</h4>
+            <div class="contact-social-row">
+              <a href="#" class="social-circle-btn"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="social-circle-btn"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#" class="social-circle-btn"><i class="fa-brands fa-facebook-f"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Submission Form Form Panel -->
+        <form class="contact-form glass-panel reveal-element reveal-delay-2">
+          <div class="form-grid">
+            <div class="form-block">
+              <label for="cf-name">Complete Name</label>
+              <input type="text" id="cf-name" placeholder="e.g. Rahul Singh" required />
+            </div>
+
+            <div class="form-block">
+              <label for="cf-email">Premium Email Address</label>
+              <input type="email" id="cf-email" placeholder="e.g. rahul@domain.com" required />
+            </div>
+
+            <div class="form-block">
+              <label for="cf-phone">Telephone Block</label>
+              <input type="tel" id="cf-phone" placeholder="e.g. +91 0000000000" />
+            </div>
+
+            <div class="form-block">
+              <label for="cf-goal">Body Target Pillar</label>
+              <input type="text" id="cf-goal" placeholder="e.g. High Mass Density / VO2 Peak" />
+            </div>
+
+            <div class="form-block span-all">
+              <label for="cf-msg">Additional Physical specifications</label>
+              <textarea id="cf-msg" rows="4" placeholder="Mention any injury context, previous compound lifting weights, or trainer support wishes..."></textarea>
+            </div>
+          </div>
+
+          <button type="submit" class="btn-primary btn-form-submit" style="margin-top: 2rem">
+            Register Bespoke Consultation <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+
+      <!-- MAP EMBED / LOCATION FLOATING BOX -->
+      <div class="gym-location-map-wrap reveal-element">
+        <div class="mock-map-bg">
+          <div class="map-overlay-pin">
+            <i class="fa-solid fa-location-crosshairs"></i>
+            <h4>Urban Muscle HQ</h4>
+            <p>Phase 2, Sector 62, Noida, Uttar Pradesh, PIN 201301</p>
+            <p style="font-size:0.75rem; color:var(--gold-primary); margin-top:0.4rem; font-weight:700">★ PRIVATE SECURE PARKING ACTIVE ★</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVOLUTIONARY LUXURY FOOTER -->
+  <footer class="footer-main">
+    <div class="footer-grid">
+      <!-- About -->
+      <div class="footer-col footer-col-about">
+        <a href="#hero" class="logo">
+          <img src="logo.png" alt="Urban Muscle Logo" class="logo-img" referrerPolicy="no-referrer" />
+          URBAN <span>MUSCLE</span>
+        </a>
+        <p>Bespoke physiological development labs. We create bulletproof bodies, high VO2 ceilings, and iron disciplines in Noida, Uttar Pradesh.</p>
+      </div>
+
+      <!-- Navigation links -->
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="#hero">Club Home</a></li>
+          <li><a href="#programs">Training Paths</a></li>
+          <li><a href="#gallery">Sanctuary Gallery</a></li>
+          <li><a href="#schedule">Workout Schedules</a></li>
+        </ul>
+      </div>
+
+      <!-- Tool features -->
+      <div class="footer-col">
+        <h4>Physical Labs</h4>
+        <ul class="footer-links">
+          <li><a href="#bmi">Bmi Indicator</a></li>
+          <li><a href="#pricing">Obsidian pricing</a></li>
+          <li><a href="#trainers">Prestige coaches</a></li>
+          <li><a href="#testimonials">Success reviews</a></li>
+        </ul>
+      </div>
+
+      <!-- Legal specs -->
+      <div class="footer-col">
+        <h4>Governance</h4>
+        <ul class="footer-links">
+          <li><a href="#">Privacy Principles</a></li>
+          <li><a href="#">Terms of Access</a></li>
+          <li><a href="#">Licensing Certifications</a></li>
+          <li><a href="#">Guest Guidelines</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bottom copyrights -->
+    <div class="footer-bottom">
+      <p>&copy; 2026 Urban Muscle Ltd. Noida, Uttar Pradesh, India. All Prestige Rights Reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Safety Rules</a>
+        <a href="#">Biometrics SLA</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- EXTRA INTEGRATION LOGIC FOR THE BILLING DYNAMIC TOGGLER AND INTERNAL REDIRECT BUTTONS -->
+  <script>
+    // Handles inline triggers for pricing period conversion
+    document.addEventListener('DOMContentLoaded', () => {
+      const billingSwitch = document.getElementById('billingSwitch');
+      const labelMonthly = document.getElementById('label-monthly');
+      const labelAnnually = document.getElementById('label-annually');
+
+      const starterPrice = document.getElementById('price-starter');
+      const titaniumPrice = document.getElementById('price-titanium');
+      const obsidianPrice = document.getElementById('price-obsidian');
+
+      let isAnnually = false;
+
+      const updatePrices = () => {
+        if (isAnnually) {
+          billingSwitch.classList.add('annually');
+          labelMonthly.classList.remove('active');
+          labelAnnually.classList.add('active');
+          
+          // Apply 20% discount (Starter 1499 * 0.8 = ~1199, Titanium 2999 * 0.8 = ~2399, Obsidian 5999 * 0.8 = ~4799)
+          starterPrice.textContent = '1199';
+          titaniumPrice.textContent = '2399';
+          obsidianPrice.textContent = '4799';
+        } else {
+          billingSwitch.classList.remove('annually');
+          labelMonthly.classList.add('active');
+          labelAnnually.classList.remove('active');
+
+          starterPrice.textContent = '1499';
+          titaniumPrice.textContent = '2999';
+          obsidianPrice.textContent = '5999';
+        }
+      };
+
+      if (billingSwitch) {
+        billingSwitch.addEventListener('click', () => {
+          isAnnually = !isAnnually;
+          updatePrices();
+        });
+      }
+    });
+  </script>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
